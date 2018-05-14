@@ -1,0 +1,20 @@
+{
+	"notifications":{
+		"mail":{
+			"smtpHost":"smtp.gmail.com",
+			"port":587,
+			"username":"c4cpbxmonitor@gmail.com",
+			"password":"@123c4csg",
+			"from":"c4cpbxmonitor@gmail.com",
+			"to":"c4cpbxmonitor@gmail.com"
+		}
+	},
+	"requests":[
+		{
+			"url":"https://tuffoffshore.3cx.sg:5001",
+			"requestType":"GET",
+			"checkEvery":30,	
+			"responseTime":800
+		}
+	]
+}
